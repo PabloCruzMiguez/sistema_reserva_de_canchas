@@ -1,0 +1,133 @@
+/* Centrado del div del campeonato (quedaba justo en el medio)
+.campeonato{
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 250px;
+    border-style: solid;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+*/
+/* Queriendo poner color a la barra de navegacion */
+/*
+.container-fluid{
+    background-color: rgb(7, 59, 76);
+}
+
+p, .nav-link{
+    color: white;
+}
+*/
+.nav-logo{
+    display: inline-flex;
+    margin: 0 1px 0 0;
+}
+
+.nav-logo p{
+    margin-top: 12px;
+}
+
+.campeonato{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 1%;
+    border-style: solid;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+.campeonato-logo{
+    height: 40%;
+    width: 40%;
+}
+
+.titulo{
+    text-align: center;
+    font-weight: bold;
+}
+
+.campeonato:hover{
+    color: pink;
+}
+
+.tabla-enfrentamientos{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.tabla-escudo{
+    width: 50px;
+    height: 50px;
+}
+
+/* Estilos del login.html */
+/*otra forma de centrar*/
+.abs-center {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.form {
+    margin-top: 100px;
+    width: 450px;
+    background: white;
+    border-radius: 10px;
+}
+
+/*Centrando el logo del formulario login*/
+/* centrando el <div> del form */
+.form .container-fluid{
+    text-align: center;
+}
+/* tamaño del <img> del form */
+.form div img{
+    width: 30%;
+    height: 10%;
+    margin: 0 auto;
+}
+
+.form p{
+    margin: 1%;
+}
+
+.form button{
+    margin-top: 2%;
+}
+
+/*Estilos del index.html*/
+.carrusel{
+    width: 100%;
+    margin: 0 auto;
+    /*height: 50%;*/
+    /*hacer que las fotos se ajusten al marco del carrusel
+    ó
+    hacer que las imagenes tengan un determinado tamaño*/
+}
+
+.carrusel img{
+    /*width: 200px;*/
+    height: 400px;
+}
+
+.grupo-cartas-index{
+    
+    /* width: 95%; */
+    margin: 0 auto;
+    margin-bottom: 24px;
+    background-color: black;
+    padding-bottom: 24px;
+    
+}
+
+/*Estilos de campeonatos.html*/
+.grupo-cartas{
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
