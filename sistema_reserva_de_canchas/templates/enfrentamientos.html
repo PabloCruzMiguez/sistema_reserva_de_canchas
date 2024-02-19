@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enfrentamientos - Fixture SA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="prueba-style .css">
+</head>
+<body>
+    <header>
+        <!-- Fijarse la parte responsiva del <nav> en la documentacion de Bootstrap -->
+        <nav class="navbar navbar-expand bg-body-tertiary">
+            <div class="container-fluid">
+              <div>
+                    <a class="navbar-brand nav-logo" href="index.html">
+                        <img src="iconos/pato-fondo-transparente.gif" alt="Logo" width="45" height="50" class="d-inline-block align-text-top">
+                        <p>Pato Fútbol</p>
+                    </a>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="campeonatos.html">Campeonatos</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="enfrentamientos.html">Enfrentamientos</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="posiciones.html">Tabla de Posiciones</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0z"/>
+                            <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z"/>
+                        </svg>
+                        <a href="login.html">Iniciar Sesión</a>
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="campeonato img-fluid">
+            <img class="campeonato-logo img-fluid" src="escudos/copa-libertadores-logo.png" alt="">
+        </div>
+        <h4 class="titulo">Fecha N°2</h4>
+        <div class="tabla-enfrentamientos">
+            <!-- table-responsive hace que la tabla sea responsiva, es una clase de Bootstrap -->
+            <table class="table table-hover table-responsive">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Equipo</th>
+                        <th>VS</th>
+                        <th>Equipo</th>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1</th>
+                        <td>Boca Juniors <img src="escudos/boca-juniors.png" class="img-fluid img-thumbnail tabla-escudo" alt="..."></td>
+                        <td></td>
+                        <td><img src="escudos/river-plate.png" class="img-fluid img-thumbnail tabla-escudo" alt="..."> River Plate</td>
+                        <td><a href="enfrentamientos-detalle.html">Detalle</a></td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td>Palmeiras <img src="escudos/palmeiras.png" class="img-fluid img-thumbnail tabla-escudo" alt="..."></td>
+                        <td></td>
+                        <td><img src="escudos/flamengo.png" class="img-fluid img-thumbnail tabla-escudo" alt="..."> Flamengo</td>
+                        <td><a href="enfrentamientos-detalle.html">Detalle</a></td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td>Velez <img src="escudos/velez.png" class="img-fluid img-thumbnail tabla-escudo" alt="..."></td>
+                        <td></td>
+                        <td><img src="escudos/san-lorenzo.png" class="img-fluid img-thumbnail tabla-escudo" alt="..."> San Lorenzo</td>
+                        <td><a href="enfrentamientos-detalle.html">Detalle</a></td>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <td>Newell's <img src="escudos/newells.png" class="img-fluid img-thumbnail tabla-escudo" alt="..."></td>
+                        <td></td>
+                        <td><img src="escudos/belgrano.png" class="img-fluid img-thumbnail tabla-escudo" alt="..."> Belgrano</td>
+                        <td><a href="enfrentamientos-detalle.html">Detalle</a></td>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <td>Corinthians <img src="escudos/corinthians.png" class="img-fluid img-thumbnail tabla-escudo" alt="..."></td>
+                        <td></td>
+                        <td><img src="escudos/san-pablo.png" class="img-fluid img-thumbnail tabla-escudo" alt="..."> San Pablo</td>
+                        <td><a href="enfrentamientos-detalle.html">Detalle</a></td>
+                    </tr>
+                    <tr>
+                        <th>6</th>
+                        <td>Bayern Munich <img src="escudos/bayern-munich.png" class="img-fluid img-thumbnail tabla-escudo" alt="..."></td>
+                        <td></td>
+                        <td><img src="escudos/psg.png" class="img-fluid img-thumbnail tabla-escudo" alt="..."> PSG</td>
+                        <td><a href="enfrentamientos-detalle.html">Detalle</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

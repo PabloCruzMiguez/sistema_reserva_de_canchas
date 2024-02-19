@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campeonatos - Fixture SA</title>
+    <!-- Agregando el FavIcon -->
+    <link rel="icon" href="iconos/futbol-americano.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="prueba-style .css">
+</head>
+<body>
+    <header>
+        <!-- Fijarse la parte responsiva del <nav> en la documentacion de Bootstrap -->
+        <nav class="navbar navbar-expand bg-body-tertiary">
+            <div class="container-fluid">
+              <div>
+                    <a class="navbar-brand nav-logo" href="index.html">
+                        <img src="iconos/pato-fondo-transparente.gif" alt="Logo" width="45" height="50" class="d-inline-block align-text-top">
+                        <p>Pato Fútbol</p>
+                    </a>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="campeonatos.html">Campeonatos</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="enfrentamientos.html">Enfrentamientos</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="posiciones.html">Tabla de Pociciones</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0z"/>
+                            <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z"/>
+                        </svg>
+                        <a href="login.html">Iniciar Sesión</a>
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Si queremos cambiar la cantidad de elementos que se muestra en cada fila, cambiamos el numero de row-col-md-2 (fila con 2 elementos por fila)
+        PD: el grupo de cartas es responsivo-->
+        <!-- Se agregó la clase grupo-cartas para que el grupo de cartas tenga margen y esté centrado -->
+        <div class="grupo-cartas row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="campeonatos/LaLiga.svg" class="card-img-top" alt="..." width="200" height="300">
+                <div class="card-body">
+                  <h5 class="card-title">LaLiga</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="campeonatos/Premier League.svg" class="card-img-top" alt="..." width="200" height="300">
+                <div class="card-body">
+                  <h5 class="card-title">Premier League</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="campeonatos/LPF1.svg" class="card-img-top" alt="..." width="200" height="300">
+                <div class="card-body">
+                  <h5 class="card-title">Liga Profesional de Fútbol</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="campeonatos/Copa-Mundial-FIFA-2026.svg" class="card-img-top" alt="..." width="200" height="300">
+                <div class="card-body">
+                  <h5 class="card-title">FIFA World Cup 2026 &copy;</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <a href="#" class="card btn shadow">
+                <img src="campeonatos/Conmebol-Libertadores.svg" class="card-img-top" alt="..." width="200" height="300">
+                <div class="card-body" style="text-align: left;">
+                  <h5 class="card-title">Conmebol Libertadores</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </a>
+            </div>
+            <div class="col">
+              <a href="#" class="card btn shadow">
+                <img src="campeonatos/MLS.svg" class="card-img-top" alt="..." width="200" height="300">
+                <div class="card-body" style="text-align: left;">
+                  <h5 class="card-title">Major League Soccer</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </a>
+            </div>
+            <!-- Podemos hacer que cualquier elemento tenga el comportamiento de un boton utilizando la clase .btn -->
+            <div class="col">
+              <!-- Se cambio el <div> de la primera linea de abajo por la etiqueta <a>, se le agregó el href"#" y el role="button" y le agregamos sombra con .shadow-->
+              <a href="#" class="card btn shadow" role="button">
+                <img src="campeonatos/UEFA-Champions.svg" class="card-img-top" alt="..." width="200" height="300">
+                <!-- Se agregó el estilo de centrar el texto a la izquierda -->
+                <div class="card-body" style="text-align: left;">
+                  <h5 class="card-title">UEFA Champions League</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </a>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
